@@ -422,60 +422,19 @@ a {
 }
 
 .stats .avatar {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     width: 16px;
     height: 16px;
     margin-left: -3px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.stats .avatar-1 {
-    background: #1f3bb1;
+    background: var(--bg-color, #fff);
     font-weight: 450;
     font-size: 0.7rem;
-    letter-spacing: -0.02em;
-    color: #fff;
-}
-
-.stats .avatar-2 {
-    background: #24d6d9;
-    font-weight: 450;
-    font-size: 0.7rem;
-    letter-spacing: -0.02em;
-    color: #fff;
-}
-
-.stats .avatar-3 {
-    background: #f8c120;
-    font-weight: 450;
-    font-size: 0.7rem;
-    letter-spacing: -0.02em;
-    color: #fff;
-}
-
-.stats .avatar-4 {
-    background: #f97f6b;
-    font-weight: 450;
-    font-size: 0.7rem;
-    letter-spacing: -0.02em;
-    color: #fff;
-}
-
-.stats .avatar-5 {
-    background: #73a242;
-    font-weight: 450;
-    font-size: 0.7rem;
-    letter-spacing: -0.02em;
-    color: #fff;
-}
-
-.stats .avatar-6 {
-    background: #1f3bb1;
-    font-weight: 450;
-    font-size: 0.7rem;
+    line-height: 16px;
+    text-align: center;
     letter-spacing: -0.02em;
     color: #fff;
 }
